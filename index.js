@@ -20,6 +20,10 @@ function inc(n){
 }
 
 function dec(n){
-  n-- 
+  n--
   return n
+}
+function makeInt(n){
+  var m = parseInt(n)
+  return m
 }
